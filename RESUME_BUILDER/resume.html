@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Your details</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <header id="head">
+           <h1 id="h1">Personal Resume Form</h1>
+    </header>
+
+    <div id="main">
+    <form id="form">
+        <div id="d1">
+                 <label for="name1">Name : </label>  
+                 <input type="text" id="in" name="name1" onkeyup="name()">  
+                 <br><br>  
+                 <label for="address">Address : </label>  
+                 <input type="text" id="in" name="address"> 
+                 <br><br>     
+                 <label for="ph">Phone Number : </label>  
+                 <input type="text" id="in" name="ph">  
+                 <br><br> 
+                 <label for="email">Email : </label>  
+                 <input type="text" id="in" name="email">   
+                 <fieldset>
+                    <legend >
+                        <h2>About</h2>
+                    </legend>
+                    <textarea rows="11" cols="60" id="text1"></textarea>
+                 </fieldset>
+                 <br>
+                 <br>
+                 <label for="grad">Graduated Course : </label>
+                 <label for="ug">UG</label>
+                 <input type="radio" id="in" name="grad" value="UG">
+                 <label for="pg">PG</label>
+                 <input type="radio" id="in" name="grad" value="PG">
+                 <br>
+                 <br>
+                 <label for="deg">Degree : </label>
+                 <input type="text" id="in" name="deg"> 
+                 <br>
+                 <br> 
+                 <label for="Col">College : </label>
+                 <input type="text" id="in" name="Col"> 
+
+        </div>
+           
+        <div id="d2">
+
+            <label for="ach">Top 3 Achievements : </label>
+            <br>
+            <ul id="ul1">
+           <li id="li1"><input type="text" id="in" name="ach"></li><br>
+           <li id="li1"><input type="text" id="in" name="ach"></li><br>
+           <li id="li1"><input type="text" id="in" name="ach"></li>
+            </ul>
+            <br>
+            <br>
+            <label for="skills"> 3 Best Skills : </label>
+            <br>
+            <ul id="ul2">
+           <li id="li2"><input type="text" id="in" name="ach"></li><br>
+           <li id="li2"><input type="text" id="in" name="ach"></li><br>
+           <li id="li2"><input type="text" id="in" name="ach"></li>
+            </ul>
+            <br>
+            <br> 
+            <label for="linkedin">Linkedin Profile(url) : </label>
+            <input type="text" id="in" name="Linkedin"> 
+<br>
+<br>
+<br>
+            <button type="submit" id="sub">Submit</button>
+
+
+
+        </div>
+      
+
+    </form>
+    </div>
+
+    <script src="main2.js"></script>
+</body>
+</html>

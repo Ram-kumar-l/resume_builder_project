@@ -1,0 +1,42 @@
+#head
+{
+    text-align: center;
+}
+#main
+{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    
+    padding: 2%;
+}
+fieldset
+{
+    background-color: #eeeeee;
+    height: 30%;
+    width: 30%;
+}
+textarea
+{
+    resize: none;
+}
+#d1
+{
+    position: absolute;
+    height: fit-content;
+    width: 40%;
+    
+    left: 10%;
+    
+}
+#d2
+{
+    padding-left: 4%;
+    position: absolute;
+    height: 95%;
+    width: 40%;
+    border-left: 1px solid black;
+    left: 50%;
+    
+}
+
